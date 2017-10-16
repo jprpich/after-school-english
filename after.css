@@ -19,7 +19,7 @@ h1, p, nav {
   font-family: 'Nunito', sans-serif;
 }
 
-p {
+p, nav{
   font-size: 18px;
 }
 

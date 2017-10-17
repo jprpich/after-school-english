@@ -3,13 +3,19 @@
 <head>
   <title>After School English Camp</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="after.css">
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Nunito" rel="stylesheet">
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar-example2" data-offset="0">
 
 <!-- Navbar -->
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav id="navbar-example2" class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -25,23 +31,26 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">Programa</a></li>
-        <li><a href="#">Nuestro Equipo</a></li>
+        <li><a href="#programa">Programa</a></li>
+        <li><a href="#nuestro">Nuestro Equipo</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Ingreso Alumnos</a></li>
+        <li><a href="signup.html">Ingreso Alumnos</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-
 <!-- header image -->
 <img src="scaled image3.png">
 
+
+
+
 <!-- Container Starts Here-->
 <div class="container">
-
   <!-- El Programa -->
+  <div id="programa">
+
   <div class="page-header">
     <h1>Programa</h1>
   </div>
@@ -87,8 +96,44 @@
       </div>
     </div>    
   </div>
+  <!-- closing programa div -->
+  </div>
+
+<!-- Daily Schedule -->
+<div class=thumbnail>
+<h3>Daily Schedule </h3>
+
+
+<table class="table table-hover">
+  <tr>
+    <td>9:00</td>
+    <td>Day starts</td>
+  </tr>
+  <tr>
+    <td>9:30</td>
+    <td>Warm up</td>
+  </tr>
+  <tr>
+    <td>10:00</td>
+    <td>Lecture 1</td>
+  </tr>
+  <tr>
+    <td>10:30</td>
+    <td>Homework review</td>
+  </tr>
+  <tr>
+    <td>11:00</td>
+    <td>Snack</td>
+  </tr>
+  <tr>
+    <td>11:30</td>
+    <td>Reading / Warmup</td>
+  </tr>
+</table>
+</div>
 
   <!-- El Equipo -->
+  <div id="nuestro">
   <div class="page-header">
     <h1>Nuestro Equipo</h1>
   </div>
@@ -115,6 +160,8 @@
      <p>Coordinadora de Animación Gráfica</p>
    </div>
   </div>
+  </div>
+
 
 <!-- container ends here -->
 </div> 

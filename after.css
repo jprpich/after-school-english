@@ -1,3 +1,7 @@
+body {
+  position: relative;
+}
+
 img {
   width:100%;
 }
@@ -25,4 +29,19 @@ p, nav{
 
 .thumbnail p{
   margin-top: 10px;
+}
+.form-horizontal{
+  margin-top: 120px;
+}
+
+.form-control {
+  width: 500px;
+}
+
+#signh1 {
+  text-align: center;
+}
+
+.navbar {
+  margin-bottom: 0px;
 }
